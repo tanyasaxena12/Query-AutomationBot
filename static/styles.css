@@ -1,0 +1,266 @@
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(216, 162, 239);
+}
+
+#chatbox {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid #141414;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #ddd;
+}
+
+#chatlogs {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-interface {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat-input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-btn {
+    width: 10%;
+    padding: 11px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #45a049;
+}
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.user {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+    margin-left: 20%;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot {
+    background-color: #ddd;
+    align-self: flex-start;
+    margin-right: auto;
+}
+*/
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(205, 178, 231);
+}
+
+#chatbox {
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+    border: 1px solid #141414;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}
+
+#chatlogs {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #010101;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-interface {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat-input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-btn {
+    width: 10%;
+    padding: 11px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #45a049;
+}
+
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+
+.user {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot {
+    background-color: #ddd;
+    align-self: flex-start;
+    margin-right: auto;
+}
+#logo-container {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    max-width: 100px;  /* You can adjust this value as per your requirements 
+    height: auto;
+}
+*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-technology-background-network-connection-social-media-banner-vector_345220-154.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    max-width: 100px;  /* You can adjust this value as per your requirements */
+    height: auto;
+}
+
+#chatbox {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid #411C39;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#chatlogs {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #411C39;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-interface {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat-input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-btn {
+    width: 10%;
+    padding: 11px;
+    background-color: #411C39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #411C39;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.user {
+    background-color: #411C39;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot {
+    background-color: #411C39;
+    color: white;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+/* Add this media query for screens smaller than 600px */
+
+@media only screen and (max-width: 600px) {
+    #chatbox {
+        width: 95%;
+    }
+
+    #chat-input {
+        width: 75%;
+    }
+
+    #send-btn {
+        width: 20%;
+    }
+}

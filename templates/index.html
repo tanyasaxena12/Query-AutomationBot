@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    
+</head>
+<body>
+    <div id="logo-container">
+        <img id="logo" src="https://www.juncyber.com/wp-content/uploads/2020/11/juncyber_logo-e1606699454537.png" alt="Company Logo">
+    </div>
+    
+    <div id="chatbox">
+        
+        <div id="chatlogs">
+            <!--Chat logs will appear here-->
+        </div>
+
+        <div id="chat-interface">
+            <textarea id="chat-input" placeholder="Type a message..."></textarea>
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div id="user">
+        <p>Welcome, <span id="username">{{ session['username'] }}</span>!</p>
+        <a href="/logout">Logout</a>
+    </div>
+    <div id="chatbox">
+        <div id="chatlogs">
+           // Chat will appear here 
+        </div>
+        <div id="chat-interface">
+            <textarea id="message-box" placeholder="Enter your message here..."></textarea>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+-->
